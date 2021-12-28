@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Khula&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    
+    font-family: 'Khula', sans-serif;
+    height: 100vh;
+    font-weight: 600;
+}
+.container {
+    position: relative;
+    margin: 0 auto;
+    /* display: flex;
+    justify-content: center;
+    position: relative; */
+}
+.image {
+    position: relative;
+    width: 600px;
+
+}
+.image img {
+    max-width: 600px;
+}
+
+.answerContainer{
+    top: 43%;
+    display: flex;
+    justify-content: center;
+    left: 33%;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    transition: 2s;
+}
+.start {
+    z-index: 9999;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    transition: 1s;
+}
