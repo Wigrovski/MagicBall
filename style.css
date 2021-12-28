@@ -27,17 +27,40 @@ body {
 
 .answerContainer{
     top: 40%;
-    left: 40%;
+    left: 35%;
+    max-height: 100px;
     width: 200px;
-    height: 100px;
     position: absolute;
-    transition: 2s;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 .start {
+    max-width: 200px;
+    max-height: 100px;
+    display: block;
     z-index: 9999;
     text-decoration: none;
     color: #fff;
     text-align: center;
-    transition: 1s;
-    font-size: 3vw;
+}
+@media screen and (max-width: 600px){
+    .answerContainer{
+        width: 90px;
+        left: 38%;
+        font-size: 13px;
+
+    }
+}
+@media screen and (max-width: 600px){
+    .answerContainer{
+        width: 90px;
+        left: 38%;
+        font-size: 13px;
+    }
+}
+@media screen and (min-width: 600px){
+    .answerContainer{
+        left: 50%%;
+    }
 }
