@@ -13,24 +13,21 @@ body {
 .container {
     position: relative;
     margin: 0 auto;
-    /* display: flex;
-    justify-content: center;
-    position: relative; */
+
 }
 .image {
     position: relative;
-    width: 600px;
+    max-width: 600px;
 
 }
 .image img {
-    max-width: 600px;
+    max-width: 100%;
+    height: auto;
 }
 
 .answerContainer{
-    top: 43%;
-    display: flex;
-    justify-content: center;
-    left: 33%;
+    top: 40%;
+    left: 40%;
     width: 200px;
     height: 100px;
     position: absolute;
@@ -42,4 +39,5 @@ body {
     color: #fff;
     text-align: center;
     transition: 1s;
+    font-size: 3vw;
 }
